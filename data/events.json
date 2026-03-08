@@ -1,0 +1,60 @@
+{
+ "events":[
+  {
+   "name":"Haldi & Matkor",
+   "date":"9 March 2026",
+   "venue":"Residence, Parsudih, Jamshedpur",
+   "time":"06:30 PM",
+   "food": {
+    "available": true,
+    "type": "Dinner",
+    "map": "https://maps.app.goo.gl/BWZWEYC5g3VXSbeF6"
+  }
+  },
+  {
+  "name": "Sangeet",
+  "date": "10 March 2026",
+  "day": "Tuesday",
+  "time": {
+    "start": "6:30 PM",
+    "end": "Late Evening"
+  },
+  "venue": {
+    "place": "Residence",
+    "area": "Parsudih",
+    "city": "Jamshedpur",
+    "map": "https://maps.app.goo.gl/BWZWEYC5g3VXSbeF6"
+  },
+  "music": {
+    "type": ["DJ", "VJ"],
+    "artist": "Indu DJ",
+    "features": ["Large screen", "Dance Floor","Club vibe"]
+  },
+  "activities": [
+    "Dance",
+    "Music",
+    "Celebration"
+  ],
+  "food": {
+    "available": true,
+    "type": "Dinner"
+  }
+},
+  {
+   "name":"Barat",
+   "date":"11 March 2026",
+   "venue":"Golmuri-Circle, Sakchi, near Howrah Bridge, New kalimati Road, Jamshedpur",
+   "time":"7:00 PM",
+   "description": "The Barat will first gather at Golmuri Circle and then joyfully proceed to Golden Iris with music, dance, and fireworks.",
+   "guest_tip": "Please reach 15 minutes early to enjoy the full procession.",
+   "map": "https://maps.app.goo.gl/HPRSxb2aHmx3Q1ybA"
+  },
+  {
+   "name":"Wedding & Reception",
+   "date":"11 March 2026",
+   "venue":"Golden Iris, Golmuri, Jamshedpur",
+   "time":"8:00 PM",
+   "map":"https://maps.app.goo.gl/Xff9ZQP6XnFjWs72A"
+  }
+ ]
+}

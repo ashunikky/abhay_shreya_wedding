@@ -1,0 +1,17 @@
+[project]
+name = "abhay-shreya-wedding"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.2.10",
+    "langchain-openai>=1.1.10",
+    "langgraph>=1.0.10",
+    "openai>=2.26.0",
+    "python-dotenv>=1.2.2",
+    "serpapi>=0.1.5",
+    "streamlit>=1.55.0",
+    "streamlit-mic-recorder>=0.0.8",
+    "wikipedia>=1.4.0",
+]

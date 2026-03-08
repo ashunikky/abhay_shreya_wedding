@@ -1,0 +1,45 @@
+{
+  "hotel": {
+    "name": "Pod N Beyond",
+    "area": "New ranikudar, Bistupur",
+    "city": "Jamshedpur",
+    "check_in": "11 March 2026, 11:00 AM",
+    "check_out": "12 March 2026, 11:00 AM",
+    "rooms": 16,
+    "hotel-stay_map": "https://maps.app.goo.gl/WSLzkzA4FVsvZvqT9",
+    "route_to_stay": "https://maps.app.goo.gl/EsiMzNmvrKmjyEug7",
+    "welcome_snacks": true,
+    "veg_lunch_buffet": true,
+    "morning_breakfast": "12 March 2026",
+    "rooms_detail": [
+      {"room_no": 304, "pax": 4, "notes": "Bride (Shreya ji)"},
+      {"room_no": 412, "pax": 4, "notes": "Bunker beds, Age <25"},
+      {"room_no": 404, "pax": 4, "notes": "Bunker beds, Age <25"},
+      {"room_no": 401, "pax": 4, "notes": "Bunker beds, Age <25"},
+      {"room_no": 302, "pax": 4, "notes": ""},
+      {"room_no": 106, "pax": 4, "notes": ""},
+      {"room_no": 105, "pax": 4, "notes": ""},
+      {"room_no": 102, "pax": 4, "notes": ""},
+      {"room_no": 101, "pax": 3, "notes": ""},
+      {"room_no": 208, "pax": 3, "notes": ""},
+      {"room_no": 210, "pax": 2, "notes": ""},
+      {"room_no": 209, "pax": 2, "notes": ""},
+      {"room_no": 208, "pax": 2, "notes": ""},
+      {"room_no": 203, "pax": 2, "notes": ""},
+      {"room_no": 201, "pax": 2, "notes": ""},
+      {"room_no": 104, "pax": 2, "notes": ""},
+      {"room_no": 103, "pax": 2, "notes": ""}
+    ]
+  },
+  "transport": {
+    "cars": [
+      {"type": "5/7seater", "purpose": "city transport"}
+    ]
+  },
+  "wedding_transfer": {
+    "venue": "Golden Iris, Golmuri, Jamshedpur",
+    "departure_time": "11 March 2026, 4:00 PM",
+    "route_from_stay_to_wedding-location": "https://maps.app.goo.gl/T9BDtX7cMrtQsDij7",
+    "wedding_location":"https://maps.app.goo.gl/Xff9ZQP6XnFjWs72A"
+  }
+}

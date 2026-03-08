@@ -1,0 +1,73 @@
+{
+  "couple": {
+    "groom": {
+      "name": "Abhay Gupta",
+      "occupation": "Lawyer",
+      "current_city": "New Delhi",
+      "home_town": "Jamshedpur, Jharkhand",
+      "nature": [
+        "sense of humor",
+        "family-oriented",
+        "foodie",
+        "mature",
+        "emotional",
+        "practical"
+      ],
+      "parents": {
+        "father": "Mr. Babban Prasad Gupta",
+        "mother": "Mrs. Rajkumari Devi"
+      },
+      "grandparents": [
+        "Late Mr. Mahavir Saw",
+        "Late Mrs. Rajpati Devi"
+      ],
+      "siblings": [
+        {
+          "name": "Mrs. Nisha",
+          "spouse": "Mr. Prasant",
+          "children": ["Pranshu", "Veer"],
+          "city": "Narsinghgarh, Dhalbhumgarh"
+        },
+        {
+          "name": "Mrs. Preeti",
+          "spouse": "Mr. Kundan",
+          "children": ["Pakhi", "Vishu"],
+          "city": "Ukhra, Durgapur"
+        },
+        {
+          "name": "Mrs. Puja",
+          "spouse": "Mr. Ashutosh",
+          "children": ["Shubh"],
+          "city": "Jamshedpur"
+        }
+      ]
+
+      
+    },
+  "bride": {
+    "name": "Shreya Gupta",
+    "occupation": "Accountant",
+    "current_city": "Kolkata, West Bengal",
+    "home_town": "Ranchi, Jharkhand",
+    "nature": [
+      "foodie",
+      "supportive",
+      "music lover",
+      "kind"
+    ],
+    "parents": {
+      "father": "Mr. Ramesh Sahu",
+      "mother": "Mrs. Sunita Devi"
+    },
+    "grandparents": [
+      "Late Mr. Basti Sahu",
+      "Late Mrs. Laxmi Sahu"
+    ],
+    "siblings": [
+      {
+        "relation": "elder brother"
+      }
+    ]
+  }
+}
+}
