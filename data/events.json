@@ -17,7 +17,7 @@
   "day": "Tuesday",
   "time": {
     "start": "6:30 PM",
-    "end": "Late Evening"
+    "end": "10:30 PM"
   },
   "venue": {
     "place": "Residence",
@@ -44,7 +44,7 @@
    "name":"Barat",
    "date":"11 March 2026",
    "venue":"Golmuri-Circle, Sakchi, near Howrah Bridge, New kalimati Road, Jamshedpur",
-   "time":"7:00 PM",
+   "time":"6:30 PM",
    "description": "The Barat will first gather at Golmuri Circle and then joyfully proceed to Golden Iris with music, dance, and fireworks.",
    "guest_tip": "Please reach 15 minutes early to enjoy the full procession.",
    "map": "https://maps.app.goo.gl/HPRSxb2aHmx3Q1ybA"
@@ -53,7 +53,7 @@
    "name":"Wedding & Reception",
    "date":"11 March 2026",
    "venue":"Golden Iris, Golmuri, Jamshedpur",
-   "time":"8:00 PM",
+   "time":"7:30 PM",
    "map":"https://maps.app.goo.gl/Xff9ZQP6XnFjWs72A"
   }
  ]

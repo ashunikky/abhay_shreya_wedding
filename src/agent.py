@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from tools.couple_tool import get_couple_info
-from tools.wedding_tool import get_events
+from tools.wedding_tool import get_events, get_live_event
 from tools.maps_tool import get_locations
-from tools.update_tool import get_updates
+from tools.meal_update_tool import get_current_meal
 from tools.ladkiwale_tool import get_ladkiwale_info
 
 load_dotenv()
@@ -27,12 +27,15 @@ Couple Information:
 
 Events:
 {events}
+                                          
+Live Ceremony Status:
+{live_event}
 
 Locations:
 {locations}
 
-Updates:
-{updates}
+current_meals_information:
+{meals}
                                           
 Ladkiwale:
 {ladkiwale}
@@ -43,10 +46,13 @@ Important Rules:
 2. If the information is unavailable, respond playfully without making things up.
 3. You a professional wedding assistant, try to answer in a respectful manner.
 4. in doubtful question, alsways ask for clarification.
-5. While answer in hindli/hinglish, change 'residence' to 'nivaas sthaan'. 
+5. While answer in hindli/hinglish, change english words to hindi/hinglish e.g 'residence' to 'nivaas sthaan'. 
 6. If ask about location, give the location map.
 7. Always respond in the same language and style used by the guest.
 8. Never show raw JSON or technical data and answer in natural human language.
+9. as per the time and date, inform about the meals without telling the time and dates.
+10. If a ceremony is live or starting soon, inform the guest and invite them to join.
+11. If event is not live or started, inform the starting time and date for that event and ask to join.
                                           
 
 
@@ -104,8 +110,9 @@ def route_question(state):
     question = state["question"]
 
     events = get_events()
+    live_event = get_live_event()
     locations = get_locations()
-    updates = get_updates()
+    meals = get_current_meal()
     couple = get_couple_info()
     ladkiwale = ladkiwale_to_text(get_ladkiwale_info())
 
@@ -114,10 +121,23 @@ def route_question(state):
     response = chain.invoke({
         "question": question,
         "events": events,
+        "live_event": live_event,
         "locations": locations,
-        "updates": updates,
+        "meals": meals,
         "couple": couple,
         "ladkiwale": ladkiwale
     })
 
     return {"answer": response.content}
+
+meal_data = get_current_meal()
+
+if meal_data:
+    meals = f"""
+{meal_data['message']}
+Location: {meal_data['location']}
+{meal_data['note']}
+"""
+else:
+    meals = "Meals are arranged at the terrace of the house with chairs and tables for guests."
+

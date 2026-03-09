@@ -1,0 +1,44 @@
+{
+  "meal_updates": [
+    {
+      "name": "Breakfast",
+      "time": "09:30 -13:29",
+      "message": "Breakfast is ready at the terrace of the house.",
+      "guest": "ladkewale",
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-13",
+      "location": "Terrace of the house",
+      "note": "Chairs and tables are arranged, sit comfortably and enjoy the meals." 
+    },
+    {
+      "name": "Lunch",
+      "time": "13:30-17:59",
+      "message": "Lunch is ready at the terrace of the house.",
+      "guest": "ladkewale",
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-13",
+      "location": "Terrace of the house",
+      "note": "Chairs and tables are arranged, sit comfortably and enjoy the meals."
+    },
+    {
+      "name": "evening tea",
+      "time": "18:00-20:59",
+      "message": "Tea is ready at the terrace of the house.",
+      "guest": "ladkewale",
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-13",
+      "location": "Terrace of the house",
+      "note": "Chairs and tables are arranged, sit comfortably and enjoy the tea."
+    },
+    {
+      "name": "Dinner",
+      "time": "21:00-23:30",
+      "message": "Dinner is ready at the terrace of the house.",
+      "guest": "ladkewale",
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-13",
+      "location": "Terrace of the house",
+      "note": "Chairs and tables are arranged, sit comfortably and enjoy the meals."
+    }
+  ]
+}
