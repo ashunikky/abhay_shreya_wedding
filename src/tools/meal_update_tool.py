@@ -1,6 +1,10 @@
 import json
 from pathlib import Path
 from datetime import datetime
+import pytz
+
+IST = pytz.timezone("Asia/Kolkata")
+now = datetime.now(IST)
 
 DATA_PATH = Path(__file__).resolve().parents[2] / "data" / "meal_updates.json"
 
