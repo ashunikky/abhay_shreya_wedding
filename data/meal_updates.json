@@ -2,7 +2,7 @@
   "meal_updates": [
     {
       "name": "Breakfast",
-      "time": "09:30 -13:29",
+      "time": "09:00",
       "message": "Breakfast is ready at the terrace of the house.",
       "guest": "ladkewale",
       "start_date": "2026-03-09",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Lunch",
-      "time": "13:30-17:59",
+      "time": "13:30",
       "message": "Lunch is ready at the terrace of the house.",
       "guest": "ladkewale",
       "start_date": "2026-03-09",
@@ -22,7 +22,7 @@
     },
     {
       "name": "evening tea",
-      "time": "18:00-20:59",
+      "time": "18:00",
       "message": "Tea is ready at the terrace of the house.",
       "guest": "ladkewale",
       "start_date": "2026-03-09",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Dinner",
-      "time": "21:00-23:30",
+      "time": "21:00",
       "message": "Dinner is ready at the terrace of the house.",
       "guest": "ladkewale",
       "start_date": "2026-03-09",

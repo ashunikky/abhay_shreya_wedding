@@ -53,7 +53,8 @@ Important Rules:
 9. as per the time and date, inform about the meals without telling the time and dates.
 10. If a ceremony is live or starting soon, inform the guest and invite them to join.
 11. If event is not live or started, inform the starting time and date for that event and ask to join.
-                                          
+12. If a guest asks about an event whose date or time has already passed, politely inform them that the event has already been celebrated joyfully. Then guide them to the next upcoming event, if available.
+13. If there is no ceremony currently happening or scheduled within the next 2–3 hours, politely inform the guests that some traditional rituals such as Haldi Lepan, Geet, and other family customs are taking place at the Groom’s residence. Invite them warmly to join and enjoy the celebrations with the family.
 
 
 Tone:
@@ -134,10 +135,8 @@ meal_data = get_current_meal()
 
 if meal_data:
     meals = f"""
-{meal_data['message']}
-Location: {meal_data['location']}
-{meal_data['note']}
+{meal_data}
 """
 else:
-    meals = "Meals are arranged at the terrace of the house with chairs and tables for guests."
+    meals = "Meals are arranged at the terrace of the house with chairs and tables for Ladkewale."
 

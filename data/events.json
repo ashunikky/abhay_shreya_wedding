@@ -41,14 +41,32 @@
   }
 },
   {
-   "name":"Barat",
-   "date":"11 March 2026",
-   "venue":"Golmuri-Circle, Sakchi, near Howrah Bridge, New kalimati Road, Jamshedpur",
-   "time":"6:30 PM",
-   "description": "The Barat will first gather at Golmuri Circle and then joyfully proceed to Golden Iris with music, dance, and fireworks.",
-   "guest_tip": "Please reach 15 minutes early to enjoy the full procession.",
-   "map": "https://maps.app.goo.gl/HPRSxb2aHmx3Q1ybA"
-  },
+  "name": "Barat Mandir Visit",
+  "date": "11 March 2026",
+  "time": "5:00 PM",
+  "venue": "Nearby Mandir, Parsudih, Jamshedpur",
+  "description": "The Barat will first visit the nearby Mandir for blessings before heading towards the main gathering point.",
+  "guest_tip": "Family members joining the Mandir visit are requested to reach a few minutes early.",
+  "map": "https://maps.app.goo.gl/bWhhc6if1prxNt3w6"
+},
+{
+  "name": "Barat Meet-up",
+  "date": "11 March 2026",
+  "time": "5:45 PM",
+  "venue": "Golmuri Circle, Sakchi, near Howrah Bridge, New Kalimati Road, Jamshedpur",
+  "description": "All guests are requested to gather at Golmuri Circle where the Barat will assemble before the grand procession begins.",
+  "guest_tip": "Please reach 10–15 minutes early so we can start the procession smoothly.",
+  "map": "https://maps.app.goo.gl/HPRSxb2aHmx3Q1ybA"
+},
+{
+  "name": "Barat Procession",
+  "date": "11 March 2026",
+  "time": "6:00 PM",
+  "venue": "Golmuri Circle to Golden Iris, Jamshedpur",
+  "description": "The Barat procession will begin from Golmuri Circle and proceed joyfully towards Golden Iris with music, dancing, and celebrations.",
+  "guest_tip": "Get ready for music, dance, and a festive procession!",
+  "map": "https://maps.app.goo.gl/sANLjF4tWPET7JHh8"
+},
   {
    "name":"Wedding & Reception",
    "date":"11 March 2026",
