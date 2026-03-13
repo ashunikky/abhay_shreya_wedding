@@ -11,6 +11,9 @@ An AI-powered conversational assistant designed to help wedding guests quickly a
 
 Guests can simply ask questions in natural language and receive real-time responses.
 
+🚀 **Live App:** https://abhayshreyawedding.streamlit.app/  
+📂 **Source Code:** https://github.com/ashunikky/abhay_shreya_wedding
+
 📸 Application Screenshot
 
 ![App Screenshot](docs/app_screenshot.png)
