@@ -1,4 +1,4 @@
-#🤖 AI Wedding Event Assistant
+# 🤖 AI Wedding Event Assistant
 
 
 
@@ -26,7 +26,7 @@ Example screenshot:
 • meal update response
 
 
-##🎯 Project Motivation
+## 🎯 Project Motivation
 
 During large weddings, guests frequently ask questions like:
 
@@ -42,8 +42,8 @@ Instead of repeatedly sharing information in chat groups, this assistant provide
 
 This assistant was built for my brother-in-law’s wedding and was actively used by guests from both the groom’s and bride’s sides.
 
-##✨ Key Features
-###💬 Conversational AI Assistant
+## ✨ Key Features
+### 💬 Conversational AI Assistant
 
 Guests can ask questions naturally:
 
@@ -61,7 +61,7 @@ upcoming events
 
 completed celebrations
 
-###🍽 Smart Meal Announcements
+### 🍽 Smart Meal Announcements
 
 The system automatically informs guests when:
 
@@ -75,15 +75,15 @@ dinner
 
 are available.
 
-###📍 Venue Navigation
+### 📍 Venue Navigation
 
 Provides location information and map links for venues.
 
-###🎉 Ritual Fallback Message
+### 🎉 Ritual Fallback Message
 
 If no major ceremony is happening, the assistant informs guests that traditional rituals like Haldi Lepan or family celebrations are ongoing at the groom’s residence.
 
-##🏗 AI Architecture
+## 🏗 AI Architecture
 
 The project follows a tool-based AI architecture.
 
@@ -107,7 +107,7 @@ Each tool retrieves structured data from JSON files.
 
 The assistant then generates a natural language response.
 
-##⚙ Tech Stack
+## ⚙ Tech Stack
 
 Core technologies used in the project:
 
@@ -131,7 +131,7 @@ Streamlit
 
 GitHub
 
-##📂 Project Structure
+## 📂 Project Structure
 src/
  ├── agent.py
  ├── graph.py
@@ -160,7 +160,7 @@ Install dependencies:
 
 uv sync
 
-##Run the application:
+## Run the application:
 
 streamlit run src/app.py
 
@@ -197,7 +197,7 @@ receive meal announcements
 
 The feedback from guests was very positive and many enjoyed interacting with the assistant.
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
 
 Possible enhancements include:
 
@@ -211,12 +211,12 @@ Push notifications for upcoming events
 
 Multi-language support
 
-###👨‍💻 Author
+### 👨‍💻 Author
 
 Ashutosh Pandit
 
 Exploring practical applications of Generative AI and intelligent assistants.
 
-###⭐ If you found this project interesting
+### ⭐ If you found this project interesting
 
 Consider giving the repository a star.
