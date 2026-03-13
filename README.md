@@ -1,145 +1,222 @@
-AI Wedding Event Assistant
+#🤖 AI Wedding Event Assistant
 
-An AI-powered conversational assistant designed to help wedding guests easily access event details, venue information, and meal updates during a multi-day wedding celebration.
 
-Instead of sharing schedules and updates through multiple messages, guests can simply ask questions and receive real-time responses about the ongoing or upcoming ceremonies.
 
-Project Overview
 
-This project demonstrates how Generative AI and tool-based architecture can be used to build a practical assistant for real-world events such as weddings, conferences, or large gatherings.
 
-The assistant dynamically retrieves structured event information and generates natural responses to user queries.
 
-Example questions guests can ask:
 
-What event is happening now?
+
+An AI-powered conversational assistant designed to help wedding guests quickly access event schedules, venue information, and meal updates during a multi-day wedding celebration.
+
+Guests can simply ask questions in natural language and receive real-time responses.
+
+📸 Application Screenshot
+
+![App Screenshot](docs/app_screenshot.png)
+
+![Chat Example](docs/app_screenshot_1.png)
+
+![Event Query Example](docs/app_screenshot_2.png)
+
+Example screenshot:
+
+• application home page
+• event schedule response
+• meal update response
+
+
+##🎯 Project Motivation
+
+During large weddings, guests frequently ask questions like:
+
+What ceremony is happening now?
 
 Where is the Barat meetup?
 
-Is breakfast available?
+When is dinner served?
 
 Where is the wedding venue?
 
-What is the next ceremony?
+Instead of repeatedly sharing information in chat groups, this assistant provides instant answers using Generative AI.
 
-The assistant responds using real-time logic based on the current date and time.
+This assistant was built for my brother-in-law’s wedding and was actively used by guests from both the groom’s and bride’s sides.
 
-Key Features
+##✨ Key Features
+###💬 Conversational AI Assistant
 
-Conversational AI Interface
-Guests can interact with the assistant using natural language questions.
+Guests can ask questions naturally:
 
-Real-time Event Detection
-The assistant detects whether an event is currently happening, starting soon, or already completed.
+What event is happening now?
+Where is the Barat meetup?
+Is breakfast available?
+Where is the wedding venue?
+⏱ Real-Time Event Awareness
 
-Dynamic Meal Announcements
-Automatically informs guests when breakfast, lunch, tea, or dinner is available.
+The assistant dynamically checks the current date and time to determine:
 
-Venue Navigation
-Provides location details along with map links for easy navigation.
+ongoing ceremonies
 
-Fallback Ritual Information
-If no major ceremony is happening, the assistant informs guests about ongoing traditional rituals such as Haldi Lepan or family celebrations.
+upcoming events
 
-Live Deployment
-The application is deployed as an interactive web app accessible to guests.
+completed celebrations
 
-Tech Stack
+###🍽 Smart Meal Announcements
+
+The system automatically informs guests when:
+
+breakfast
+
+lunch
+
+evening tea
+
+dinner
+
+are available.
+
+###📍 Venue Navigation
+
+Provides location information and map links for venues.
+
+###🎉 Ritual Fallback Message
+
+If no major ceremony is happening, the assistant informs guests that traditional rituals like Haldi Lepan or family celebrations are ongoing at the groom’s residence.
+
+##🏗 AI Architecture
+
+The project follows a tool-based AI architecture.
+
+User Question
+      ↓
+AI Agent (LangGraph)
+      ↓
+Tool Router
+      ↓
+Specialized Tools
+
+Tools used:
+
+Tool	Purpose
+Wedding Tool	Retrieves ceremony details
+Meal Update Tool	Provides meal announcements
+Maps Tool	Venue directions
+Couple Tool	Couple information
+
+Each tool retrieves structured data from JSON files.
+
+The assistant then generates a natural language response.
+
+##⚙ Tech Stack
+
+Core technologies used in the project:
 
 Python
-
-LLM-based conversational AI
 
 Prompt Engineering
 
 Tool-based AI architecture
 
-JSON-based structured event data
+JSON structured data
 
-Streamlit for web interface
+AI Frameworks:
 
-GitHub for version control
+LangChain
 
-Built using:
+LangGraph
+
+Deployment & Interface:
 
 Streamlit
 
 GitHub
 
-Project Architecture
+##📂 Project Structure
+src/
+ ├── agent.py
+ ├── graph.py
+ ├── app.py
+ └── tools/
+      ├── wedding_tool.py
+      ├── meal_update_tool.py
+      ├── maps_tool.py
+      ├── couple_tool.py
+      └── ladkiwale_tool.py
 
-The assistant uses a modular tool-based architecture.
+data/
+ ├── events.json
+ └── meal_updates.json
 
-User Query
-↓
-Agent Router
-↓
-Specialized Tools
+docs/
+ └── app-screenshot.png
+🚀 Running the Project
 
-Tools include:
+Clone the repository:
 
-Event Information Tool
+git clone https://github.com/ashunikky/abhay_shreya_wedding.git
+cd abhay_shreya_wedding
 
-Meal Update Tool
+Install dependencies:
 
-Venue Map Tool
+uv sync
 
-Couple Information Tool
+##Run the application:
 
-Each tool retrieves structured data from JSON files and provides context to the AI model.
+streamlit run src/app.py
 
-Example Assistant Responses
+The assistant will open in your browser.
 
-Event Query
+💡 Example Interaction
 
-User:
-"What is happening now?"
+User
 
-Assistant:
-"Sangeet ceremony is currently happening at the residence. Guests are welcome to join the celebration."
+What is happening now?
 
-Meal Query
+Assistant
 
-User:
-"Is breakfast available?"
+Sangeet ceremony is currently happening at the residence.
+Guests are welcome to join the celebration.
 
-Assistant:
-"Breakfast is ready at the terrace of the house. Chairs and tables are arranged for guests."
+User
 
-Upcoming Event Query
+Is breakfast available?
 
-User:
-"When is the Barat?"
+Assistant
 
-Assistant:
-"The Barat will first gather at the nearby temple at 5:00 PM and then proceed to the meetup point at Golmuri Circle at 6:00 PM."
+Breakfast is ready at the terrace of the house.
+Chairs and tables are arranged for guests.
+🌍 Real-world Usage
 
-Real-world Usage
+This assistant was created for a real wedding event and used by guests during the celebration to:
 
-This assistant was built for a family wedding and used by guests from both the groom's and bride's sides.
+check ceremony schedules
 
-It helped guests quickly access ceremony schedules, venue directions, and meal updates without needing to search through messages or ask organizers.
+find venue directions
 
-Future Improvements
+receive meal announcements
+
+The feedback from guests was very positive and many enjoyed interacting with the assistant.
+
+##🔮 Future Improvements
 
 Possible enhancements include:
 
-WhatsApp integration for guest queries
+WhatsApp chatbot integration
 
-Voice-based interaction
+Voice interaction
 
 Admin dashboard for live updates
 
-Push notifications for major events
+Push notifications for upcoming events
 
 Multi-language support
 
-Author
+###👨‍💻 Author
 
 Ashutosh Pandit
 
-AI enthusiast exploring practical applications of Generative AI in real-world scenarios.
+Exploring practical applications of Generative AI and intelligent assistants.
 
-License
+###⭐ If you found this project interesting
 
-This project is open for learning and experimentation.
+Consider giving the repository a star.
